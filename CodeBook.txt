@@ -1,0 +1,108 @@
+Study Design:
+
+1.Measurements provided in .txt format in multiple file
+	a) subject	b)activity	c) measurements
+2.Two sets of these files were provided as
+	a) train dataset	b) test dataset
+
+Code Book
+
+
+1. The dataset  is a summary dataset. It provides AVERAGES of all the features for all the observations 
+ (subject) by their activities
+
+VARIABLE UNITS : -NA- (unable to provide the units)
+
+VARIABLES:(Data is mean of all the means and standar deviation stats below)
+
+Subject = id registered to a subject (id in 1:30)
+Activity = activity (WALKING
+, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS
+,  SITTING, STANDING
+, LAYING
+)
+TimeDomainBodyAccelerationmeanX - mean of Body Acceleration in Time Domain along x axis
+TimeDomainBodyAccelerationmeanY - mean of Body Acceleration Time Domain along y axis
+TimeDomainBodyAccelerationmeanZ - mean of Body Acceleration Time Domain along z axis
+TimeDomainGravityAccelertionmeanX - mean of Gravity Acceleration Time Domain along x axis
+TimeDomainGravityAccelertionmeanY - mean of Gravity Acceleration Time Domain along y axis
+TimeDomainGravityAccelertionmeanZ - mean of Gravity Acceleration Time Domain along z axis
+TimeDomainBodyLinearAccelerationmeanX - mean of Body Linear Acceleration Time Domain along x axis
+TimeDomainBodyLinearAccelerationmeanY - mean of Time Domain Body Linear Acceleration Time Domain along x axis
+TimeDomainBodyLinearAccelerationmeanZ - mean of Time Domain Body Linear Acceleration Time Domain along x axis
+TimeDomainBodyGyroscoprmeanX - mean of Body Gyroscope  Time Domain along x axis
+TimeDomainBodyGyroscoprmeanY - mean of Body Gyroscope  Time Domain along y axis
+TimeDomainBodyGyroscoprmeanZ - mean of Body Gyroscope  Time Domain along z axis
+TimeDomainBodyAngularVelocitymeanX - mean of Body angular velocity in Time Domain along x axis
+TimeDomainBodyAngularVelocitymeanY - mean of Body angular velocity in Time Domain along y axis
+TimeDomainBodyAngularVelocitymeanZ - mean of Body angular velocity in Time Domain along z axis
+TimeDomainBodyAccelerationMagnitudemean - mean of magnitude of Body accelrations  in Time Domain
+TimeDomainGravityAccelertionMagnitudemean - mean of magnitude of Gravity Acceleration in Time Domain
+TimeDomainGyroscoprMagnitudemean - mean of magnitude of gryroscope signl in  Time domain 
+TimeDomainBodyAngularVelocityMagnitudemean - mean of magnitude ofBody Angular Velocity in time domain 
+FrequencyDomainBodyAccelerationmeanX - mean of Body Acceleration along in Frequency Domain  x axis
+FrequencyDomainBodyAccelerationmeanY - mean of Body Acceleration in Frequency Domain  along y axis
+FrequencyDomainBodyAccelerationmeanZ - mean of Body Acceleration in Frequency Domain  along z axis
+FrequencyDomainBodyAccelerationmeanFreqX - mean of frequency of Body Acceleration in Frequency Domain along x axis
+FrequencyDomainBodyAccelerationmeanFreqY - mean of frequency of Body Acceleration in Frequency Domain  along y axis
+FrequencyDomainBodyAccelerationmeanFreqZ - mean of frequency of Body Acceleration in Frequency Domain  along z axis
+FrequencyDomainBodyLinearAccelerationmeanX - mean of Body linear Acceleration in Frequency Domain along x axis
+FrequencyDomainBodyLinearAccelerationmeanY - mean of Body linear Acceleration in Frequency Domain  along y axis
+FrequencyDomainBodyLinearAccelerationmeanZ - mean of Body linear Acceleration  in Frequency Domain along z axis
+FrequencyDomainBodyLinearAccelerationmeanFreqX - mean of frequency of Body Linear Acceleration in Frequency Domain along x axis
+FrequencyDomainBodyLinearAccelerationmeanFreqY - mean of frequency of Body Linear Acceleration in Frequency Domain  along y axis
+FrequencyDomainBodyLinearAccelerationmeanFreqZ - mean of frequency of Body Linear Acceleration in Frequency Domain  along z axis
+FrequencyDomainBodyGyroscopemeanX - mean of Body Gyroscope signal in Frequency Domain along x axis
+FrequencyDomainBodyGyroscopemeanY - mean of Body Gyroscope signal in Frequency Domain along y axis
+FrequencyDomainBodyGyroscopemeanZ - mean of Body Gyroscope signal in Frequency Domain along z axis
+FrequencyDomainBodyGyroscopemeanFreqX - mean of frequency of Body Gyroscope signal in Frequency Domain along x axis 
+FrequencyDomainBodyGyroscopemeanFreqY - mean of frequency of Body Gyroscope signal in Frequency Domain along y axis
+FrequencyDomainBodyGyroscopemeanFreqZ - mean of frequency of Body Gyroscope signal in Frequency Domain along z axis
+FrequencyDomainBodyAccelerationMagnitudemean - mean of Magnitude of Body acceleration in Frequency Domain
+FrequencyDomainBodyAccelerationMagnitudemeanFreq - mean of Frequency Magnitude of Body acceleration in Frequency Domain
+FrequencyDomainBodyLinearAccelerationMagnitudemean - mean of Magnitude of body linear acceleration in Frequency Domain
+FrequencyDomainBodyLinearAccelerationMagnitudemeanFreq - mean of frequency Magnitude of body linear acceleration in Frequency Domain
+FrequencyDomainBodyGyroscopeMagnitudemean - mean of magnitude of body Gryroscope in Frequency Domain
+FrequencyDomainBodyGyroscopeMagnitudemeanFreq - mean of magnitude frequency of body Gryroscope in Frequency Domain
+FrequencyDomainBodyAngularVelocityMagnitudemean - mean of magnitude of body body angualr velocity in Frequency Domain
+FrequencyDomainBodyAngularVelocityMagnitudemeanFreq - mean of frequency of magnitude of body body angualr velocity in Frequency Domain
+angleTimeDomainBodyAccelerationMeangravity - angle ( body acceleration mean of ini time domain)
+angleTimeDomainBodyLinearAccelerationMeangravityMean - angle (mean gravity of BodyLinearAcceleration Meangravity Mean)
+angleTimeDomainGyroscoprMeangravityMean- angle (mean gravity of BodyLinearAcceleration in time domain)
+angleTimeDomainBodyAngularVelocityMeangravityMean - angle (mean gravity of body angular velcoity in time domain )
+angleXgravityMean - angle (gravity mean ) along x axis
+angleYgravityMean - angle (gravity mean ) along y axis
+angleZgravityMean - angle (gravity mean ) along z axis
+TimeDomainBodyAccelerationstdX - standard deviation of body acceleration in time domain along x axis
+TimeDomainBodyAccelerationstdY - standard deviation of body acceleration in time domain along y axis
+TimeDomainBodyAccelerationstdZ - standard deviation of body acceleration in time domain along z axis
+TimeDomainGravityAccelertionstdX - standard deviation of gravity acceleration in time domain along x axis
+TimeDomainGravityAccelertionstdY - standard deviation of gravity acceleration in time domain along y axis
+TimeDomainGravityAccelertionstdZ - standard deviation of gravity acceleration in time domain along z axis
+TimeDomainBodyLinearAccelerationstdX - standard deviation of body linear acceleration in time domain along x axis
+TimeDomainBodyLinearAccelerationstdY - standard deviation of body linear acceleration in time domain along y axis
+TimeDomainBodyLinearAccelerationstdZ - standard deviation of body linear acceleration in time domain along z axis
+TimeDomainGyroscoprstdX - standard deviation of gyroscope in time domain along x axis
+TimeDomainGyroscoprstdY - standard deviation of gyroscope in time domain along y axis
+TimeDomainGyroscoprstdZ - standard deviation of gyroscope in time domain along z axis
+TimeDomainBodyAngularVelocitystdX - standard deviation of angular velocity in time domain along x axis
+TimeDomainBodyAngularVelocitystdY - standard deviation of angular velocity in time domain along x axis
+TimeDomainBodyAngularVelocitystdZ - standard deviation of angular velocity in time domain along x axis
+TimeDomainBodyAccelerationMagnitudestd - standard deviation of body acceleration magnitude along x axis
+TimeDomainGravityAccelertionMagnitudestd - standard deviation of gravity acceleration magnitude along x axis
+TimeDomainBodyLinearAccelerationMagnitudestd - standard deviation of body acceleration magnitude along x axis
+TimeDomainGyroscoprMagnitudestd - standard deviation of gyroscope magnitudein time domain
+TimeDomainBodyAngularVelocityMagnitudestd - standard deviation of body angular velocity magnitude in time domain
+FrequencyDomainBodyAccelerationstdX - standard deviation of bodya cceleration in freqenccy domain along x
+FrequencyDomainBodyAccelerationstdY - standard deviation of bodya cceleration in freqenccy domain along y
+FrequencyDomainBodyAccelerationstdZ - standard deviation of bodya cceleration in freqenccy domain along z
+FrequencyDomainBodyLinearAccelerationstdX - standard deviation of body linear acceleration in freqenccy domain along x
+FrequencyDomainBodyLinearAccelerationstdY - standard deviation of body linear acceleration in freqenccy domain along y
+FrequencyDomainBodyLinearAccelerationstdZ - standard deviation of body linear acceleration in freqenccy domain along z
+FrequencyDomainBodyGyroscopestdX - standard deviation of gyroscope in frequency domain along x axis
+FrequencyDomainBodyGyroscopestdY - standard deviation of gyroscope in frequency domain along y axis
+FrequencyDomainBodyGyroscopestdZ - standard deviation of gyroscope in frequency domain along z axis
+FrequencyDomainBodyAccelerationMagnitudestd - standard deviation of body acceleration magnitudein frequency domain along x axis
+FrequencyDomainBodyLinearAccelerationMagnitudestd - standard deviation of body acceleration magnitude in frequency domain along x axis
+FrequencyDomainBodyGyroscopeMagnitudestd - standard deviation of gyroscope magnitudein frequency domain
+FrequencyDomainBodyAngularVelocityMagnitudestd  - standard deviation of body angular velocity magnitude in frequency domain
